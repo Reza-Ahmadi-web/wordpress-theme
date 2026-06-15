@@ -19,25 +19,27 @@ Text Domain:
 body {
     font-family: IranSans !important;
     background: #44475A !important;
-    color: #F8F8F2 !important;
+    color: #F8F8F2;
 }
 
 .dark-mode {
-    background-color: #44475A !important;
+    background-color: #1e1e1e !important;
     color: #F8F8F2 !important;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .light-mode {
     background-color: #F8F8F2 !important;
-    color: #44475A !important;
+    color: #1e1e1e !important;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .light-mode a {
-    color: #44475A !important;
+    color: #1e1e1e !important;
 }
-
+.light-mode  .fa-search {
+    background-color: #1e1e1e !important;
+}
 .light-mode .navbar,
 .light-mode header,
 .light-mode footer {
@@ -46,12 +48,15 @@ body {
 
 .light-mode .card {
     background-color: #ffffff !important;
-    color: #44475A !important;
+    color: #1e1e1e !important;
+}
+.light-mode .wp-block-latest-posts a {
+    color: #1e1e1e !important;
 }
 
 a {
     text-decoration: none !important;
-    color: #F8F8F2 !important;
+    color: #F8F8F2;
     font-family: IranSans !important;
 }
 
@@ -60,7 +65,7 @@ li {
 }
 
 .dark-color {
-    background-color: #44475A;
+    background-color: #1e1e1e;
 }
 
 /* button-call-top */
